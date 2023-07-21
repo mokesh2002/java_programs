@@ -1,0 +1,22 @@
+import java.util.*;
+class divisor
+{
+public static void main(String args[])
+{
+  Scanner sv=new Scanner(System.in);
+  int n=sv.nextInt();
+  int k=1;
+   while(k>0)
+   {
+     if(n%k==0)
+     {
+      System.out.println( k);
+      k++; 
+     }
+    else
+{
+k++;
+}
+   }
+}
+}
